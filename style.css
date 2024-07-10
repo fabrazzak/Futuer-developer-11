@@ -165,6 +165,7 @@ text-align: center;
     text-align: center;
     padding: 12px 20px 12px 20px;
     width: 150px;
+    text-decoration: none;
 }
 .web-item-img{
    max-width: 260px;
