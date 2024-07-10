@@ -44,7 +44,9 @@
     border: 2px solid #0D1321;
     border-radius: 8px;
 }
- 
+ .download-btn{
+    cursor: pointer;
+ }
 /* banner section  */
 
 .banner-section{
