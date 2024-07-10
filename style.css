@@ -6,11 +6,23 @@
 
 
 
+ /* common css  */
+ .main{
+    max-width: 1140px;
+    margin: auto;
+    margin-top: 100px;
+
+ }
+
+ .section{
+    margin-top: 80px;
+ }
+
 
 /* header css  */
 
 
-.header{
+.navbar{
     margin: 50px 150px;
 }
 
@@ -32,3 +44,155 @@
     border: 2px solid #0D1321;
     border-radius: 8px;
 }
+
+/* banner section  */
+
+.banner-section{
+    background-image: url("/assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.banner-section-wrapper{
+display: flex;
+height: 650px;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 1000px;
+margin: auto;
+text-align: center;
+
+
+}
+.banner-img{
+   max-width: 240px;
+   width: 100%;
+}
+.banner-title{
+    font-size: 48px;
+    line-height: 68px;
+    color: #0D1321;
+    margin-bottom: 25px;
+
+}
+.banner-des , .section-des{
+font-size: 18px;
+color: #0D1321;
+line-height: 26px;
+margin-bottom: 25px;
+text-align: center;
+}
+.banner-btn{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px; 
+    text-align: center;
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;    
+    background: rgb(13, 19, 33);
+    text-decoration: none;
+}
+
+
+.section-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin: 24px 0px;
+}
+.web-development{
+    padding: 80px 0;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.web-development-wrapper{
+    max-width: 950px;
+    margin: auto;
+
+
+}
+.web-development-wrapper .section-des{
+    padding: 0 50px;
+
+}
+.web-item{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;    
+    border-radius: 16px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);justify-content: space-between;
+    margin-top: 50px;
+    padding: 50px;
+}
+.web-item-info {
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.web-item-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 16px 0px;
+}
+.web-item-des{
+    color: rgb(13, 19, 33);    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    margin-bottom: 32px;
+}
+.web-item-btn{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 12px 20px 12px 20px;
+    width: 150px;
+}
+.web-item-img{
+   max-width: 260px;
+}
+
+
+
+/* inspiration  */
+
+
+.inspiration-info{
+    width: 850px;
+    text-align: center;
+    margin: auto;
+}
+.inspiration-video{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 25px;
+    margin-top: 50px;
+  
+    }
+    .iframe-video{
+        border-radius: 16px;
+       
+    }
