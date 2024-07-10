@@ -44,11 +44,11 @@
     border: 2px solid #0D1321;
     border-radius: 8px;
 }
-
+ 
 /* banner section  */
 
 .banner-section{
-    background-image: url("https: //ibb.co/BtLDrg8");
+    background-image: url("/assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
